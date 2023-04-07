@@ -42,3 +42,12 @@
     transform: rotate(360deg);
   }
 }
+
+.itemcontainer{
+  background: #e5e5e5;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+

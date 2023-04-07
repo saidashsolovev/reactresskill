@@ -1,19 +1,14 @@
 import React, { Component, FC, useState } from 'react';
-import {Inform} from '../models/Types'
+import {IAddArticle} from '../models/IAddArticle'
 import Button from 'react-bootstrap/Button';
-import nextId from "react-id-generator";
-
-interface IAddArticle{
-    addToList: (newInfo:Inform) => void;
-}
 
  export const AddArticle:FC<IAddArticle>  = ( {addToList} )=>  {
 
     const [text, setText] = useState("Empty");
     const [title, setTitle] = useState("Empty");
     const addToListArc = () =>{
-
-         addToList({id: nextId(), title: title, text: text, likes: 0 })
+        const now = new Date();
+         addToList({id: String(now.toLocaleString()+now.getMilliseconds()), title: title, text: text, likes: 0 })
     }
     
     return (

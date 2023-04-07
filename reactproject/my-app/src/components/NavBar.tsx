@@ -7,11 +7,11 @@ export function BaseNavbar() {
     return (
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="/">Edit page</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link title='doest work yet' href="">Only List</Nav.Link>
+              <Nav.Link title='doest work yet' href="/List">List</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
