@@ -1,4 +1,4 @@
-import {Inform} from '../models/InformType'
-export interface IAddArticle{
-    addToList: (newInfo:Inform) => void;
+import { InformType } from "../models/InformType";
+export interface IAddArticle {
+  addToList: (newInfo: InformType) => void;
 }

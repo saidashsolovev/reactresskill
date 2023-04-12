@@ -12,11 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.delete{
-  background-color:red !important;
+.delete {
+  background-color: red !important;
 }
-.dislike{
-  background-color:rgb(139, 137, 0) !important;
+.dislike {
+  background-color: rgb(139, 137, 0) !important;
 }
 
 .App-header {
@@ -43,11 +43,9 @@
   }
 }
 
-.itemcontainer{
+.itemcontainer {
   background: #e5e5e5;
   border: 1px solid #c2c2c2;
   border-radius: 8px;
   overflow: hidden;
 }
-
-

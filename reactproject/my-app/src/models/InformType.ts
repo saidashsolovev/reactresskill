@@ -1,7 +1,6 @@
-export type Inform ={
-    id: string,
-    title: string,
-    text:string,
-    likes: number 
-}
-
+export type InformType = {
+  id: string;
+  title: string;
+  text: string;
+  likes: number;
+};
