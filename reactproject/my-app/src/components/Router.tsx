@@ -1,5 +1,5 @@
 import App from "../App";
-import List from "./ListView";
+import ListView from "./ListView";
 import { useRoutes } from "react-router-dom";
 
 const Router = () => {
@@ -10,7 +10,7 @@ const Router = () => {
     },
     {
       path: "/List",
-      element: <List />,
+      element: <ListView />,
     },
   ];
   let routs = useRoutes(AppRoutes);

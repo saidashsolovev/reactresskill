@@ -9,7 +9,7 @@ export const ItemLists: FC<IItemList> = ({ information, like, dislike }) => {
       {information.length > 0
         ? information.map((item: InformType) => (
             <>
-              <div className="itemcontainer" key={item.id}>              
+              <div className="itemcontainer" key={item.id}>
                 <h1>{item.title}</h1>
                 <h3>{item.text}</h3>
                 <ItemButton item={item} />

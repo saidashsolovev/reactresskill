@@ -3,7 +3,7 @@ import { InformType } from "../models/InformType";
 import React, { useContext } from "react";
 import Filters from "../components/Filters";
 
-export const List = () => {
+export const ListView = () => {
   const { information, likefilter } = useContext(InformProviderContext);
   return (
     <div>
@@ -25,4 +25,4 @@ export const List = () => {
     </div>
   );
 };
-export default List;
+export default ListView;
